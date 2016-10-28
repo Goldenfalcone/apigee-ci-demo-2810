@@ -4,7 +4,7 @@ var logglyBasePath = context.getVariable('proxy.basepath');
 var logglyUrl = logglyUrlScheme + '://' + logglyUrlDomain + logglyBasePath + '/logs';
 context.setVariable('debug.logglyUrl', logglyUrl);
 
-var log = {
+var log = 
 	org: context.getVariable('organization.name'),
 	env: context.getVariable('environment.name'),
 	api: context.getVariable('apiproxy.name'),
