@@ -12,7 +12,7 @@ var log =
 		resource: context.getVariable('proxy.pathsuffix'),
 		query: context.getVariable('flow.apigee.originalRequest.querystring'),
 		verb: context.getVariable('flow.apigee.originalRequest.verb')
-	},
+	};
 	error: {
 		status: context.getVariable('flow.apigee.error.status'),
 		code: context.getVariable('flow.apigee.error.code'),
