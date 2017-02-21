@@ -41,7 +41,7 @@
 			<id>test</id>
 			<properties>
 				<apigee.profile>test</apigee.profile>
-				<apigee.env>test</apigee.env>
+				<apigee.env>integration</apigee.env>
 				<apigee.hosturl>https://mgmt.apigarden-test.int.thomsonreuters.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
 				<apigee.org>${env.APIGEE_ORG}</apigee.org>
