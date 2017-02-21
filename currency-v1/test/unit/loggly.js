@@ -38,7 +38,7 @@ describe('feature: loggly integration', function() {
 			var logObject = JSON.parse(mock.requestConstr.args[0][3]);
 
 			json.compare(logObject, 'logObject.json', function(err) {
-				if (err) { throw err; }
+				if (err) { throw err };
 				done();
 			});
 		});
